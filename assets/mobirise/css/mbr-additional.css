@@ -470,8 +470,25 @@ h6,
 }
 #ext_menu-0 .link[aria-expanded="true"],
 #ext_menu-0 .dropdown-item[aria-expanded="true"] {
-  color: #c0a375!important;
+  color: #ef7e2e!important;
+}
+#header2-1 .mbr-section-title {
+  color: #ffffff;
+  font-size: 48px;
+}
+#header2-1 .mbr-section-text {
+  font-size: 20px;
 }
 #form1-2 .form-control-label {
   color: #232323;
+}
+#form1-2 .mbr-section-title {
+  font-size: 36px;
+}
+#features7-3 .card-subtitle {
+  color: #bcbcbc;
+}
+#features7-3 .iconbox {
+  background-color: #ef7e2e;
+  border-color: #ef7e2e;
 }
