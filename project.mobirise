@@ -24,7 +24,8 @@
     "uniqCompNum": 8,
     "versionPublish": "3.10.5",
     "favicon": "@PROJECT_PATH@/assets/images/favcon-128x135.png",
-    "noImageResize": ""
+    "noImageResize": "",
+    "path": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
@@ -182,7 +183,7 @@
             }
           },
           "title": "Vamos colocar clientes na sua sala de espera!",
-          "text": "Diariamente recebemos diversas oportunidades de Clientes<br>interessados em tratamentos estéticos e podemos encaminhá-las<br>para você!<br>",
+          "text": "<b>Diariamente recebemos diversas oportunidades de Clientes<br>interessados em tratamentos estéticos e podemos encaminhá-las<br>para você!</b><br>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
         },
         {
@@ -263,8 +264,8 @@
           "_anchor": "features7-3",
           "_params": {
             "iconsBgColor": "@primaryColor",
-            "paddingTop": 2,
-            "paddingBottom": 2,
+            "paddingTop": "1",
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
@@ -393,6 +394,12 @@
               "color": "#ffffff",
               "font-size": "22px",
               "text-align": "center"
+            },
+            "P": {
+              "color": "#ffffff"
+            },
+            "B": {
+              "font-size": "20px"
             }
           },
           "_anchor": "msg-box5-7",
@@ -413,8 +420,8 @@
             "overlayOpacity": 0.5,
             "overlayColor": "#fff",
             "inverse": true,
-            "showTitle": true,
-            "showText": false,
+            "showTitle": false,
+            "showText": true,
             "showButtons": false
           },
           "media": {
@@ -439,8 +446,8 @@
               "size": 0
             }
           },
-          "title": "A primeira plataforma online do Brasil criada especialmente para Clínicas e Centros de&nbsp;<span style=\"line-height: 1.1;\">Estética, com o objetivo de facilitar e estimular a contratação de tratamentos!</span>",
-          "text": "Solid color intro with an image on the right side. Also this block has no paddings.",
+          "title": "<span style=\"font-weight: normal;\">A primeira plataforma online do Brasil criada especialmente para Clínicas e Centros de&nbsp;<span style=\"line-height: 1.1;\">Estética, com o objetivo de facilitar e estimular a contratação de tratamentos!</span></span>",
+          "text": "<b>A primeira plataforma online do Brasil criada especialmente para Clínicas e Centros de Estética, com o objetivo de facilitar e estimular a contratação de tratamentos!</b>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
         }
       ]
