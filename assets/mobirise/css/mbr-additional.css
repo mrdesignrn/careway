@@ -485,6 +485,9 @@ h6,
 #form1-2 .mbr-section-title {
   font-size: 36px;
 }
+#form1-2 .btn {
+  font-size: 16px;
+}
 #features7-3 .card-subtitle {
   color: #bcbcbc;
 }
@@ -502,4 +505,5 @@ h6,
 }
 #msg-box5-7 B {
   font-size: 20px;
+  color: #000000;
 }

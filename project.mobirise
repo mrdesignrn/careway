@@ -16,16 +16,17 @@
         "subtitleFont": "Lora",
         "textFont": "Raleway",
         "isRoundedButtons": false,
-        "isAnimatedOnScroll": true,
+        "isAnimatedOnScroll": false,
         "isScrollToTopButton": false
       }
     },
     "versionFirst": "3.10.5",
-    "uniqCompNum": 8,
+    "uniqCompNum": 10,
     "versionPublish": "3.10.5",
     "favicon": "@PROJECT_PATH@/assets/images/favcon-128x135.png",
     "noImageResize": "",
-    "path": "@PROJECT_PATH@"
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -164,7 +165,7 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/pretty-girl-laptop-1400x787.jpg",
+              "src": "@PROJECT_PATH@/assets/images/grafico-1400x937.png",
               "link": "",
               "alt": "",
               "title": "",
@@ -197,6 +198,9 @@
             },
             ".mbr-section-title": {
               "font-size": "36px"
+            },
+            ".btn": {
+              "font-size": "16px"
             }
           },
           "_anchor": "form1-2",
@@ -399,7 +403,8 @@
               "color": "#ffffff"
             },
             "B": {
-              "font-size": "20px"
+              "font-size": "20px",
+              "color": "#000000"
             }
           },
           "_anchor": "msg-box5-7",
@@ -410,7 +415,7 @@
             "parallax": true,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#735e99",
+            "bgColor": "#ffffff",
             "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -428,7 +433,7 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/logo-careway-1400x457-2.png",
+              "src": "@PROJECT_PATH@/assets/images/logo-careway-fundo-branco-1400x457.png",
               "link": "",
               "alt": "",
               "title": "",
